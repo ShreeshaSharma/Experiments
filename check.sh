@@ -1,4 +1,4 @@
-
+#small snippet to see how grep RE works. This one is trying to look for alphanumeric pattern.
 if echo $@ | grep -q -E "[\+]* [-]+[[:alnum:]]*"; then
 	echo $@
 else
